@@ -35,6 +35,7 @@ function MapWithSingleLoop(nums, target) {
 
   for (let i = 0; i < nums.length; i++) {
     const remaining = target - nums[i];
+    console.log(remaining);
     if (map.has(remaining)) {
       return [map.get(remaining), i];
     }
