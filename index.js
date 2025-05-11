@@ -49,6 +49,7 @@ function app(nums, target) {
     } else if (sum < target) {
       left++;
     } else {
+      
       right--;
     }
   }
